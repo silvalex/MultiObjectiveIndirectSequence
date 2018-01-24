@@ -68,7 +68,7 @@ breed                   = ec.multiobjective.nsga2.NSGA2Breeder
 
 pop.subpop.0.species.pipe                      = ec.breed.MultiBreedingPipeline
 pop.subpop.0.species.pipe.num-sources          = 3
-pop.subpop.0.species.pipe.source.0             = wsc.WSCCrossoverPipeline
+pop.subpop.0.species.pipe.source.0             = wsc.WSCCrossoverPipelineSingleOffspring
 pop.subpop.0.species.pipe.source.0.prob        = 0.8
 pop.subpop.0.species.pipe.source.0.num-sources = 2
 pop.subpop.0.species.pipe.source.1             = wsc.WSCMutationPipeline
