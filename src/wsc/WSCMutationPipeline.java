@@ -1,7 +1,5 @@
 package wsc;
 
-import java.util.Arrays;
-
 import ec.BreedingPipeline;
 import ec.EvolutionState;
 import ec.Individual;
