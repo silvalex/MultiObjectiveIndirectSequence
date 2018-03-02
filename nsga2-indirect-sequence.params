@@ -3,7 +3,7 @@ parent.1 = @ec.simple.SimpleShortStatistics simple.params
 
 
 pop.subpop.0.size = 500
-generations       = 12000
+generations       = 51
 
 seed.0                                         = 1
 composition-task                               = problem.xml
